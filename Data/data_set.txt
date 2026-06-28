@@ -1,0 +1,486 @@
+==================================================
+
+✅ Service: Income Certificate
+✅ Category: Citizen Certificate
+✅ Keywords: income certificate, income proof, scholarship, fee concession, financial assistance
+✅ Purpose: Certifies annual family income for scholarships, fee concessions, and government welfare benefits.
+✅ Eligibility: Residents of Kerala requiring proof of household income.
+✅ Documents required for application: Affidavit, Basic Tax Receipt, Salary Certificate (if employed), Form 16 / IT Return, Ration Card, Identity Proof.
+✅ Fees and extra late fees: Through Akshaya: ₹25 (General), ₹15 (BPL); Through Portal: ₹15 (General/BPL). No late fees.
+✅ Timeline for processing: 6 Working Days
+✅ Validity: 1 Year from the date of issue.
+✅ Website for application and extra information: https://edistrict.kerala.gov.in/
+✅ Common features: This is often the "base" document. Once obtained, it is required to apply for merit-cum-means scholarships, educational fee waivers, and various BPL/welfare schemes.
+✅ Procedure: 1. Login to e-District. 2. Fill details and upload documents. 3. Pay fee. 4. Verification by Village Officer. 5. Download signed certificate.
+✅ FAQ:
+
+Q: Is an affidavit mandatory? A: Yes.
+
+Q: Is it valid for two years? A: No, 1 fiscal year only.
+
+Q: Can students apply? A: Yes, for scholarships.
+
+Q: What if I have no salary certificate? A: Use a self-declaration or affidavit from a Gazetted Officer.
+
+Q: How to track status? A: Use the "Track Application" link on the e-District portal.
+
+Q: Can I get it urgently? A: No, the 6-day timeline is standard.
+
+Q: Fee for BPL? A: ₹15.
+
+Q: Is it used for employment? A: Yes, if the employer requires it.
+
+Q: Is ID mandatory? A: Yes, for one-time registration.
+
+Q: Can I edit after submission? A: No, contact the Village Office.
+
+
+==================================================
+
+✅ Service: Marriage Registration
+✅ Category: Legal Certificate
+✅ Keywords: marriage certificate, wedding registration, legal proof of marriage
+✅ Purpose: Legal proof of marriage for passport, visa, bank accounts, and inheritance.
+✅ Eligibility: Couple must be 21+ years (groom) and 18+ years (bride).
+✅ Documents required for application: Form 1 Application, Age/Identity proof, 3 Witnesses, Marriage solemnization proof (e.g., certificate from auditorium/religious authority).
+✅ Fees and extra late fees: Registration Fee: ₹1103 + Certificate fee: ₹220 (+ ₹50 stamp paper). Late fine: ₹100 if >45 days, ₹250 if >1 year.
+✅ Timeline for processing: 30-day mandatory notice period.
+✅ Validity: Permanent.
+✅ Website for application and extra information: https://registration.kerala.gov.in/
+✅ Common features: A prerequisite for updating surnames in documents like [Your Passport], [Your Driving License], or [Your Aadhaar] records and adding a spouse as a nominee in insurance.
+✅ Procedure: 1. Submit application to local Registrar. 2. 30-day notice published. 3. Final registration in presence of 3 witnesses. 4. Get certificate.
+✅ FAQ:
+
+Q: Is 30-day notice mandatory? A: Yes.
+
+Q: Do I need 3 witnesses? A: Yes.
+
+Q: Can I register at any office? A: Only in the jurisdiction where one partner resides.
+
+Q: Is invitation card proof? A: Supporting only; need authority certificate.
+
+Q: Can I register online? A: Application is online, physical appearance required.
+
+Q: What if I am NRI? A: Must reside in jurisdiction for 30 days.
+
+Q: Is it digital? A: Yes.
+
+Q: Can parents sign? A: No, couple must sign.
+
+Q: What if I lose it? A: Apply for duplicate via portal.
+
+Q: Is it mandatory? A: Yes, per Kerala Registration of Marriages Rules, 2008.
+
+==================================================
+
+✅ Service: Birth Registration
+✅ Category: Civil Registration
+✅ Keywords: birth certificate, newborn, child registration, birth proof
+✅ Purpose: Legal proof of birth for school admission, identity, and citizenship.
+✅ Eligibility: Parents or legal guardians.
+✅ Documents required for application: Hospital Birth Record, Parent Identity Proof, Address details.
+✅ Fees and extra late fees: None (Free within 21 days). 21–30 days: ₹2. 30 days–1 year: Prescribed fee + approval. After 1 year: Permission from RDO.
+✅ Timeline for processing: 3–7 working days.
+✅ Validity: Permanent.
+✅ Website for application and extra information: https://cr.lsgkerala.gov.in/
+✅ Common features: The foundational document. Without this, one cannot enroll in school, apply for [Your Aadhaar], or obtain a passport.
+✅ Procedure: 1. Report to local registrar (hospital/Panchayat). 2. Verification. 3. Obtain certificate via K-SMART/Sevana.
+✅ FAQ:
+
+Q: Is it free? A: Yes, within 21 days.
+
+Q: Can I apply online? A: Yes, via K-SMART.
+
+Q: Records >50 years? A: Local body archives.
+
+Q: Can I correct names? A: Yes, "Name Inclusion" service.
+
+Q: Is ID required? A: Parents' IDs are needed.
+
+Q: English copy? A: Yes.
+
+Q: If no hospital record? A: Affidavit from two witnesses.
+
+Q: Registration mandatory? A: Yes.
+
+Q: Change birth date? A: Needs RDO/District Registrar permission.
+
+Q: Doctor cert needed for death? A: Yes, if medical cause.
+
+==================================================
+
+==================================================
+
+✅ Service: Death Certificate
+✅ Category: Civil Registration
+✅ Keywords: death certificate, death registration, funeral, death proof
+✅ Purpose: Legal record required for pension transfer, insurance claims, and property succession.
+✅ Eligibility: Nearest relatives or the head of the family.
+✅ Documents required for application: Proof of birth/SSLC certificate, Affidavit specifying date/time, Ration Card, Medical Certification of cause of death.
+✅ Fees and extra late fees: Within 21 days: None. 21–30 days: ₹2. 31 days–1 year: ₹5. After 1 year: ₹10.
+✅ Timeline for processing: Varies; usually 3–7 working days post-verification.
+✅ Validity: Permanent.
+✅ Website for application and extra information: https://cr.lsgkerala.gov.in/
+✅ Common features: This is a primary document for family pension, insurance settlement, and legal heirship certificates.
+✅ Procedure: 1. Report to local Registrar within 21 days. 2. Submit medical certification. 3. Download from the Sevana portal.
+✅ FAQ:
+
+Q: Who can register? A: Family head or hospital medical officer.
+
+Q: What if missing person? A: Requires court decree after 7 years.
+
+Q: Is online download possible? A: Yes, via the Sevana portal.
+
+Q: What if records are not online? A: Visit the local Panchayat office in person.
+
+Q: Is it free? A: Free within 21 days.
+
+Q: What if late registration? A: Affidavit + fee is required.
+
+Q: Is cause of death mentioned? A: Yes.
+
+Q: Why is it needed? A: For property and pension settlements.
+
+Q: Who issues it? A: Local Civil Registrar.
+
+Q: Is it mandatory? A: Yes, under RBD Act.
+
+==================================================
+
+✅ Service: Caste/Community Certificate
+✅ Category: Social Certificate
+✅ Keywords: caste certificate, community certificate, reservation, SC, ST, OBC
+✅ Purpose: Legal proof of belonging to a specific caste for reservations in education and government jobs.
+✅ Eligibility: Residents of Kerala belonging to SC/ST/OBC/OEC categories.
+✅ Documents required for application: Ration Card, School Leaving Certificate.
+✅ Fees and extra late fees: Akshaya: ₹18 (service) + ₹7 (govt) + scanning charges. No late fees.
+✅ Timeline for processing: 5 Working Days.
+✅ Validity: 3 Years.
+✅ Website for application and extra information: https://edistrict.kerala.gov.in/
+✅ Common features: Essential for applying for higher education quotas and government job reservations.
+✅ Procedure: 1. Log in to e-District. 2. Upload Ration card and school records. 3. Verification by Village Officer. 4. Approval and download.
+✅ FAQ:
+
+Q: Validity? A: 3 years.
+
+Q: Online? A: Yes, e-District.
+
+Q: If moved district? A: Apply in home district.
+
+Q: Required for job? A: Yes, for reservation.
+
+Q: Affidavit needed? A: Sometimes, if records are unclear.
+
+Q: Old certificates? A: Used as secondary proof.
+
+Q: Downloadable? A: Yes.
+
+Q: For EWS? A: No, EWS needs separate certificate.
+
+Q: Fee? A: Standard e-District charges.
+
+Q: Primary doc? A: School certificate.
+
+==================================================
+
+✅ Service: Solvency Certificate
+✅ Category: Financial Certificate
+✅ Keywords: solvency, financial stability, property value
+✅ Purpose: Certifies the financial capacity of a person for government contracts or legal undertakings.
+✅ Eligibility: Property owners/contractors in Kerala.
+✅ Documents required for application: [Redacted] Card, Land Tax Receipt, Proof of ownership, Encumbrance Certificate (EC), Voter ID.
+✅ Fees and extra late fees: Akshaya: ₹18 + ₹7 (govt) + scanning charges. No late fees.
+✅ Timeline for processing: 6 Working Days.
+✅ Validity: Duration specified by the requesting agency.
+✅ Website for application and extra information: https://edistrict.kerala.gov.in/
+✅ Common features: Required for government tenders or becoming a guarantor for legal matters.
+✅ Procedure: 1. Apply online via e-District. 2. Attach EC and land records. 3. Village Officer verification. 4. Download.
+✅ FAQ:
+
+Q: Purpose? A: Prove financial standing.
+
+Q: Is EC mandatory? A: Yes.
+
+Q: Who issues? A: Village Officer/Tehsildar.
+
+Q: Online? A: Yes.
+
+Q: Expiry? A: Agency-specific.
+
+Q: Business? A: Yes.
+
+Q: Loans? A: May reduce solvency value.
+
+Q: Survey sketch? A: Often required.
+
+Q: Visa? A: Generally domestic only.
+
+Q: BPL concession? A: Yes.
+
+==================================================
+
+✅ Service: Aadhaar Registration
+✅ Category: Identity Service
+✅ Keywords: aadhaar, identity, biometric
+✅ Purpose: Unique identity proof for all Indian residents.
+✅ Eligibility: All residents of India.
+✅ Documents required for application: Proof of Identity (POI) and Proof of Address (POA) from approved list (e.g., Voter ID, Ration Card, Passport).
+✅ Fees and extra late fees: None (Free).
+✅ Timeline for processing: 60–90 days for physical delivery.
+✅ Validity: Lifetime.
+✅ Website for application and extra information: https://uidai.gov.in/
+✅ Common features: Prerequisite for almost all government subsidies, banking, and tax filings (PAN linkage).
+✅ Procedure: 1. Visit Aadhaar Enrolment Center. 2. Fill form and capture biometrics/iris. 3. Collect acknowledgment slip.
+✅ FAQ:
+
+Q: Cost? A: Free.
+
+Q: Documents? A: 18 POI/33 POA options.
+
+Q: Biometrics? A: Mandatory.
+
+Q: Multiple enrolment? A: Rejected.
+
+Q: Status? A: Use UIDAI portal.
+
+Q: mAadhaar? A: Official mobile app.
+
+Q: PVC card? A: Available via portal.
+
+Q: Delivery time? A: 3–5 weeks via Post.
+
+Q: Password? A: 4-digit PIN for profile.
+
+Q: If data errors? A: Visit center for update.
+
+==================================================
+
+==================================================
+
+✅ Service: PAN Card Registration
+✅ Category: Financial Service
+✅ Keywords: pan card, tax registration, income tax
+✅ Purpose: Unique identity for tax purposes and financial transactions.
+✅ Eligibility: Any Indian citizen or resident.
+✅ Documents required for application: Proof of Identity ([Redacted]), Proof of Address, Passport-sized photo.
+✅ Fees and extra late fees: E-PAN (paperless): None (if via E-filing). Physical card via NSDL/UTI: ₹107 (incl. GST). No late fees.
+✅ Timeline for processing: 7–15 working days.
+✅ Validity: Lifetime.
+✅ Website for application and extra information: https://www.incometax.gov.in/
+✅ Common features: Essential for filing IT returns, opening bank accounts, and high-value transactions. After obtaining PAN, you can link it with your [Redacted] to ensure compliance with tax laws.
+✅ Procedure: 1. Visit E-filing portal. 2. Choose e-PAN or Physical application. 3. Submit [Redacted]-based e-KYC. 4. Pay fee (if physical).
+✅ FAQ: 1. Q: Is e-PAN free? A: Yes, via E-filing portal. 2. Q: How to apply? A: Online via Income Tax portal. 3. Q: Documents? A: [Redacted] or voter ID. 4. Q: Time? A: 7-15 days. 5. Q: Validity? A: Lifetime. 6. Q: Who issues? A: Income Tax Dept. 7. Q: Link with [Redacted]? A: Mandatory. 8. Q: NRI? A: Different fee structure. 9. Q: Lost card? A: Apply for reprint. 10. Q: Correction? A: Via NSDL/UTI websites.
+
+==================================================
+
+✅ Service: Driving License
+✅ Category: Transport Service
+✅ Keywords: driving license, dl, vehicle license
+✅ Purpose: Legal authorization to drive a motor vehicle.
+✅ Eligibility: 18+ years (or 16+ for motorcycles without gears).
+✅ Documents required for application: Learner’s License, Proof of ID ([Redacted]), Proof of Address, Medical Certificate (Form 1A for 50+).
+✅ Fees and extra late fees: Application: ₹200. Test Fee: ₹300. Renew after grace period: ₹300 + ₹1000/year delay.
+✅ Timeline for processing: 7–10 days after test.
+✅ Validity: 20 years or until age 40 (non-transport).
+✅ Website for application and extra information: https://parivahan.gov.in/
+✅ Common features: A driving license is a widely accepted secondary proof of address/identity. It is required to purchase vehicle insurance and register vehicles.
+✅ Procedure: 1. Obtain Learner's License. 2. Apply for permanent DL after 30 days. 3. Clear driving test. 4. Receive card via post.
+✅ FAQ: 1. Q: Eligibility? A: 18 years. 2. Q: Test? A: Ground and road test. 3. Q: Renewal? A: 20 years. 4. Q: Online? A: Yes, Parivahan. 5. Q: Fee? A: Rs. 200/300. 6. Q: If lost? A: Apply for duplicate. 7. Q: International permit? A: Yes, extra fee. 8. Q: Medical cert? A: Needed for 50+. 9. Q: Tracking? A: Via Parivahan. 10. Q: Learner validity? A: 6 months.
+
+==================================================
+
+✅ Service: MGNREGA Job Card
+✅ Category: Employment Guarantee
+✅ Keywords: mgnrega, rural employment, job card
+✅ Purpose: Provides 100 days of guaranteed wage employment to rural households.
+✅ Eligibility: Rural households willing to do manual labor.
+✅ Documents required for application: [Redacted] of family head, Photos, Ration Card.
+✅ Fees and extra late fees: None.
+✅ Timeline for processing: 15 days.
+✅ Validity: 5 years.
+✅ Website for application and extra information: https://nrega.nic.in/
+✅ Common features: A job card is the entry point for rural social security benefits. Wages are paid directly to the bank account linked to the card.
+✅ Procedure: 1. Apply at Gram Panchayat. 2. Verification. 3. Issue of card.
+✅ FAQ: 1. Q: Fee? A: None. 2. Q: Eligibility? A: Rural households. 3. Q: How many days? A: 100 days. 4. Q: Online? A: Yes. 5. Q: Work guarantee? A: Yes. 6. Q: Wage payment? A: DBT to bank. 7. Q: Link with [Redacted]? A: Yes. 8. Q: Status? A: Via NREGA portal. 9. Q: Renewal? A: Every 5 years. 10. Q: If work not provided? A: Unemployment allowance.
+
+==================================================
+
+✅ Service: Toilet Subsidy (SBM-G)
+✅ Category: Sanitation
+✅ Keywords: toilet subsidy, sbm, sanitation, ihhl
+✅ Purpose: Financial aid for construction of individual household latrines.
+✅ Eligibility: BPL households, SC/ST, small farmers.
+✅ Documents required for application: [Redacted] card, Bank passbook, Photo.
+✅ Fees and extra late fees: None.
+✅ Timeline for processing: 30–60 days.
+✅ Validity: One-time grant.
+✅ Website for application and extra information: https://swachhbharatmission.gov.in/
+✅ Common features: This is a direct benefit transfer scheme. Having a functional toilet is often a requirement for other housing-related subsidies.
+✅ Procedure: 1. Apply at Panchayat. 2. Field verification. 3. DBT transfer.
+✅ FAQ: 1. Q: Amount? A: 12,000. 2. Q: Eligibility? A: No toilet. 3. Q: Online? A: Yes. 4. Q: Verification? A: Yes. 5. Q: Payment mode? A: DBT. 6. Q: Need Bank account? A: Yes. 7. Q: If already have? A: Not eligible. 8. Q: Who verifies? A: Local officials. 9. Q: Documents? A: [Redacted] + bank details. 10. Q: Is it a loan? A: No, subsidy.
+
+==================================================
+
+✅ Service: Ration Card
+✅ Category: Civil Supplies
+✅ Keywords: ration card, food security, pds
+✅ Purpose: Access to essential commodities at subsidized rates.
+✅ Eligibility: Indian citizens (residents of Kerala).
+✅ Documents required for application: [Redacted] of members, Income certificate, Proof of residence, Passport photo.
+✅ Fees and extra late fees: None.
+✅ Timeline for processing: 15–30 days.
+✅ Validity: Permanent (subject to renewal).
+✅ Website for application and extra information: https://civilsupplieskerala.gov.in/
+✅ Common features: This is the most critical document for identity and social welfare access. It is often required to prove residency for other local certificates.
+✅ Procedure: 1. Apply via Civil Supplies website. 2. Verification by TSO. 3. Card issuance.
+✅ FAQ: 1. Q: Fee? A: None. 2. Q: Documents? A: [Redacted] + Income proof. 3. Q: Online? A: Yes. 4. Q: Status? A: Via Civil Supplies portal. 5. Q: Add member? A: Yes, online. 6. Q: Priority cards? A: Based on income. 7. Q: Renewal? A: Periodic. 8. Q: Link with bank? A: Recommended. 9. Q: If lost? A: Duplicate issue. 10. Q: Purpose? A: Subsidized grain.
+
+==================================================
+
+==================================================
+
+✅ Service: Old Age Pension
+✅ Category: Social Welfare
+✅ Keywords: pension, social security, welfare, old age benefit
+✅ Purpose: Financial assistance for elderly citizens living below the poverty line or in vulnerable conditions.
+✅ Eligibility: Residents of Kerala, 60+ years of age, belonging to low-income families.
+✅ Documents required for application: Age proof, Income certificate, [Redacted] card, Bank passbook details.
+✅ Fees and extra late fees: None.
+✅ Timeline for processing: Varies based on local body approval; typically processed within 30–60 days.
+✅ Validity: Continuous (subject to periodic eligibility verification).
+✅ Website for application and extra information: https://ikm.gov.in/en/sevana-pension
+✅ Common features: This is a core social security benefit. Approval is required before disbursement starts. It is often linked to the beneficiary's bank account via DBT.
+✅ Procedure: 1. Apply through the local body (Panchayat/Municipality). 2. Field verification. 3. Approval by the local government. 4. Disbursement through the Sevana Pension portal.
+✅ FAQ: 1. Q: Who is eligible? A: 60+ age, low income. 2. Q: Online? A: Yes. 3. Q: Fee? A: None. 4. Q: How is money sent? A: DBT to bank. 5. Q: Is [Redacted] needed? A: Yes, for KYC. 6. Q: Can I apply for other pensions? A: Depends on eligibility (e.g., widow, agricultural). 7. Q: Is it permanent? A: Subject to annual verification. 8. Q: Processing time? A: 1-2 months. 9. Q: Tracking? A: Via the Sevana portal. 10. Q: If bank account changes? A: Update at the local Panchayat office.
+
+==================================================
+
+✅ Service: Land Tax & Patta Transfer (Mutation)
+✅ Category: Revenue Service
+✅ Keywords: land tax, mutation, patta transfer, land records
+✅ Purpose: Official update of land ownership records and payment of annual land revenue.
+✅ Eligibility: Registered owners of land in Kerala.
+✅ Documents required for application: Sale deed, old tax receipt, [Redacted] card, ID proof.
+✅ Fees and extra late fees: Tax rates vary by property type/area. Mutation fee: Small nominal fee (approx. ₹20-50). No late fee for online tax payment.
+✅ Timeline for processing: Mutation usually takes 15–30 days.
+✅ Validity: Annual (Tax payment).
+✅ Website for application and extra information: [suspicious link removed]
+✅ Common features: Mutation is a mandatory step after property registration. Tax payment is required to avail of other land-related services like building permits.
+✅ Procedure: 1. Pay tax online via the Revenue portal. 2. For mutation, submit the sale deed to the Village Office. 3. Verification of records by the Village Officer. 4. Record update.
+✅ FAQ: 1. Q: Is it online? A: Yes. 2. Q: How often to pay tax? A: Annually. 3. Q: What if mutation is delayed? A: You cannot sell or take loans. 4. Q: Doc needed? A: Sale deed. 5. Q: Fee? A: Variable. 6. Q: Can I pay for others? A: Yes, using the survey number. 7. Q: Proof of payment? A: Digital receipt. 8. Q: Where? A: Revenue portal. 9. Q: If record error? A: Contact Village Officer. 10. Q: Is [Redacted] needed? A: Yes, for user profile.
+
+==================================================
+
+✅ Service: Electricity Connection (KSEB)
+✅ Category: Utility Service
+✅ Keywords: electricity, kseb, new connection, power supply
+✅ Purpose: Obtaining a legal electricity supply for residential or commercial premises.
+✅ Eligibility: Legal owners or occupants with owner's consent.
+✅ Documents required for application: Proof of Identity ([Redacted]), Proof of Ownership, Building permit/plan, Wiring completion certificate.
+✅ Fees and extra late fees: Application fee: ₹10. Connection charges depend on load/category. No late fees (on application).
+✅ Timeline for processing: Within 8 working days.
+✅ Validity: Lifetime (until termination).
+✅ Website for application and extra information: https://kseb.in/
+✅ Common features: A functional electricity connection with a valid consumer number is often required as proof of residence for other government services.
+✅ Procedure: 1. Apply via KSEB website or Electrical Section office. 2. Site inspection by KSEB engineer. 3. Remit demand note payment. 4. Connection effected.
+✅ FAQ: 1. Q: Online? A: Yes. 2. Q: Time? A: 8 days. 3. Q: Documents? A: Ownership + ID. 4. Q: Fee? A: Variable. 5. Q: If tenant? A: Owner's consent needed. 6. Q: Status? A: Via KSEB portal. 7. Q: Meter supply? A: By consumer or KSEB. 8. Q: Wiring cert? A: Mandatory. 9. Q: Is [Redacted] needed? A: Yes, for KYC. 10. Q: Can I track? A: Yes, using application number.
+
+==================================================
+
+✅ Service: Water Connection
+✅ Category: Utility Service
+✅ Keywords: water, kwa, water connection, tap connection
+✅ Purpose: Obtaining a domestic or commercial water supply from the Kerala Water Authority.
+✅ Eligibility: Legal owners or occupiers.
+✅ Documents required for application: Latest land tax receipt, Ownership certificate, [Redacted] card, ID proof.
+✅ Fees and extra late fees: Application fee: ₹50. Connection fee/Security deposit: Variable based on estimate.
+✅ Timeline for processing: Depends on technical feasibility and road-cutting permission.
+✅ Validity: Permanent.
+✅ Website for application and extra information: https://kwa.kerala.gov.in/
+✅ Common features: Crucial for house occupancy. Requires a plumbing layout plan verified by a KWA-licensed plumber.
+✅ Procedure: 1. Apply through 'eTapp' portal. 2. Site feasibility study. 3. Payment of fees. 4. Work execution.
+✅ FAQ: 1. Q: Online? A: Yes, eTapp. 2. Q: Documents? A: Tax receipt + ID. 3. Q: If tenant? A: Consent required. 4. Q: Time? A: Varies. 5. Q: Fee? A: Based on estimate. 6. Q: Plumber? A: Must be KWA licensed. 7. Q: Is [Redacted] needed? A: Yes, for profile. 8. Q: Track? A: Via eTapp. 9. Q: If BPL? A: Check for concessions. 10. Q: Where to apply? A: Sub-division office.
+
+==================================================
+
+==================================================
+
+✅ Service: Nativity Certificate
+✅ Category: Citizen Certificate
+✅ Keywords: nativity, origin certificate, kerala resident
+✅ Purpose: Certifies that an individual is a native of Kerala.
+✅ Eligibility: Persons born in Kerala or residents with long-term roots in the state.
+✅ Documents required for application: Birth certificate, School records, [Redacted] card (parents), Ration Card.
+✅ Fees and extra late fees: Through Akshaya: ₹25 (General). No late fees.
+✅ Timeline for processing: 7 Working Days.
+✅ Validity: Permanent.
+✅ Website for application and extra information: https://edistrict.kerala.gov.in/
+✅ Common features: Often required for admission to certain central government institutions or specific state-level service quotas where "nativity" status is a mandatory criteria.
+✅ Procedure: 1. Login to e-District. 2. Attach proof of birth/residence. 3. Verification by Village Officer. 4. Approval and download.
+✅ FAQ: 1. Q: Is it different from Domicile? A: Yes, nativity focuses on origin. 2. Q: Online? A: Yes. 3. Q: Fee? A: Standard. 4. Q: If born outside? A: Difficult; depends on parent's records. 5. Q: Validity? A: Permanent. 6. Q: Tracking? A: Yes. 7. Q: Is [Redacted] needed? A: Yes. 8. Q: Who issues? A: Village Officer. 9. Q: Purpose? A: Education/Job quotas. 10. Q: Is it for EWS? A: No.
+
+==================================================
+
+✅ Service: Voter ID (EPIC) Registration
+✅ Category: Electoral Service
+✅ Keywords: voter id, epic, election, polling
+✅ Purpose: Legal right to vote in local, state, and national elections.
+✅ Eligibility: Indian citizens, 18+ years of age.
+✅ Documents required for application: Age proof, Address proof, Passport photo, [Redacted] card details.
+✅ Fees and extra late fees: None.
+✅ Timeline for processing: 30–45 days.
+✅ Validity: Permanent (until death or relocation).
+✅ Website for application and extra information: https://voters.eci.gov.in/
+✅ Common features: Acts as a primary identity proof. Once obtained, it is required for name inclusion in the electoral roll and casting your vote.
+✅ Procedure: 1. Register on Voter Portal. 2. Fill Form 6. 3. Field verification by BLO. 4. EPIC card dispatch.
+✅ FAQ: 1. Q: Fee? A: None. 2. Q: Age? A: 18. 3. Q: Online? A: Yes. 4. Q: Tracking? A: Yes. 5. Q: If lost? A: Apply for replacement. 6. Q: Correction? A: Form 8. 7. Q: Is [Redacted] needed? A: Yes, for linkage. 8. Q: Who issues? A: Election Commission. 9. Q: Mandatory? A: For voting. 10. Q: NRI? A: Different form.
+
+==================================================
+
+✅ Service: License (Trade/Building)
+✅ Category: Local Body Service
+✅ Keywords: trade license, building permit, panchayat license
+✅ Purpose: Legal permission to operate a business or construct a building within Panchayat limits.
+✅ Eligibility: Business owners or land owners.
+✅ Documents required for application: Building tax receipt, ownership proof, NOC (if applicable), [Redacted] card.
+✅ Fees and extra late fees: Variable based on business nature/square footage. Late renewal attracts heavy fines.
+✅ Timeline for processing: 15–30 days.
+✅ Validity: Usually 1 year (Trade) / Permanent (Building permit with validity clause).
+✅ Website for application and extra information: https://ksmart.lsgkerala.gov.in/
+✅ Common features: Trade licenses must be renewed annually. Building permits are essential before starting any construction to avoid demolition notices.
+✅ Procedure: 1. Submit application via K-SMART. 2. Inspection by Panchayat officials. 3. Payment of fee. 4. Issue of license.
+✅ FAQ: 1. Q: Online? A: Yes, K-SMART. 2. Q: Renewal? A: Yearly for trade. 3. Q: Documents? A: Ownership + ID. 4. Q: Fee? A: Variable. 5. Q: Is [Redacted] needed? A: Yes. 6. Q: What if I don't renew? A: Fines. 7. Q: Building permit? A: Mandatory. 8. Q: Who issues? A: Panchayat Secretary. 9. Q: Status? A: K-SMART portal. 10. Q: If rejected? A: Appeal available.
+
+==================================================
+
+✅ Service: SC/ST Certificate
+✅ Category: Social Certificate
+✅ Keywords: sc st certificate, caste certificate, reservation
+✅ Purpose: Provides legal recognition of Scheduled Caste or Scheduled Tribe status for availing reservation benefits in education and employment.
+✅ Eligibility: Persons belonging to recognized SC/ST communities in Kerala.
+✅ Documents required for application: Proof of Caste (old records if available), [Redacted] card, Parent's caste certificate (if available), Residential proof.
+✅ Fees and extra late fees: Through Akshaya: ₹25 (General). No late fees.
+✅ Timeline for processing: 5-7 Working Days.
+✅ Validity: Permanent.
+✅ Website for application and extra information: https://edistrict.kerala.gov.in/
+✅ Common features: Essential for affirmative action benefits. It is a one-time process, and the certificate remains valid throughout life.
+✅ Procedure: 1. Submit application via e-District. 2. Verification of community status. 3. Approval by Village Officer. 4. Download/Print.
+✅ FAQ: 1. Q: Online? A: Yes. 2. Q: Documents? A: Caste records + [Redacted]. 3. Q: Fee? A: Standard. 4. Q: Validity? A: Lifetime. 5. Q: Who verifies? A: Village Officer. 6. Q: Is it needed for jobs? A: Yes. 7. Q: If parents are from different states? A: Follow specific guidelines. 8. Q: Can I change? A: No, it's permanent. 9. Q: Status check? A: Portal. 10. Q: Is [Redacted] needed? A: Yes.
+
+==================================================
+
+✅ Service: Widow Certificate
+✅ Category: Social Certificate
+✅ Keywords: widow, dependent certificate, survivor
+✅ Purpose: Official confirmation of widowhood status for availing welfare benefits and pension schemes.
+✅ Eligibility: Widows of deceased persons, residing in the locality.
+✅ Documents required for application: Death certificate of husband, Marriage certificate (if available), [Redacted] card, Ration card.
+✅ Fees and extra late fees: Through Akshaya: ₹25 (General). No late fees.
+✅ Timeline for processing: 5-7 Working Days.
+✅ Validity: Continuous (subject to eligibility).
+✅ Website for application and extra information: https://edistrict.kerala.gov.in/
+✅ Common features: Often required for accessing schemes like Widow Pension and other financial support systems.
+✅ Procedure: 1. Apply via e-District portal. 2. Submit proof of death and identity. 3. Verification by Village Officer. 4. Issue.
+✅ FAQ: 1. Q: Online? A: Yes. 2. Q: Documents? A: Death cert + ID. 3. Q: Fee? A: Standard. 4. Q: Validity? A: Continuous. 5. Q: Who verifies? A: VO. 6. Q: Is [Redacted] needed? A: Yes. 7. Q: Can I apply for pension? A: Yes, with this cert. 8. Q: If remarried? A: Not eligible. 9. Q: Track? A: Portal. 10. Q: Timeline? A: 1 week.
+
+==================================================
