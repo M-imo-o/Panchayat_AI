@@ -135,7 +135,6 @@ We used Git branching to ensure smooth collaboration.
 ## Main Branches
 
 * `main` → Stable production branch
-* `dev` → Integration/testing branch
 
 ## Feature Branches
 
@@ -213,7 +212,7 @@ http://<VM_EXTERNAL_IP>:8000/docs
 
 ---
 
-# Setup Instructions
+# Local Setup Instructions
 
 ## Clone Repository
 
