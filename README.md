@@ -1,437 +1,387 @@
-# 🏛️ GramSahayak AI
+# Gramsahayak AI
 
-AI powered Gram Panchayat assistant using RAG and LLM technology.
+An AI-powered intelligent assistant designed to simplify access to public services, government schemes, and rural support systems through natural language interaction.
 
-The system helps citizens understand Panchayat services,
-required documents, fees, procedures and timelines.
+---
 
+## Project Overview
 
-# Team Git Guidelines
+Gramsahayak AI is built to bridge the gap between users and complex administrative information by providing a conversational AI interface. Users can ask queries in natural language and receive simplified, context-aware responses.
 
-## IMPORTANT RULES
+The system integrates:
 
-1. Nobody works directly on main branch.
+* **Streamlit** for frontend user interaction
+* **FastAPI** for backend API handling
+* **Groq LLM API** for AI-powered response generation
+* **Google Cloud Platform (GCP)** for deployment and hosting
 
-2. Everyone works only on their assigned feature branch.
+---
 
-3. Do not edit another member's files.
+## Problem Statement
 
-4. Always pull before pushing.
+Accessing government-related information can be difficult due to:
 
-5. Make small meaningful commits.
+* Complex documentation
+* Language barriers
+* Limited digital literacy
+* Fragmented service portals
+* Slow manual assistance systems
 
-6. Never upload:
-- .env
-- API keys
-- venv folder
+Gramsahayak AI addresses these issues using AI-powered conversational assistance.
 
+---
 
-# Project Structure
+## Objectives
 
+* Provide easy access to scheme and service information
+* Enable natural language communication
+* Simplify complex information
+* Deliver quick and accurate responses
+* Build a scalable cloud-hosted solution
 
-gram-sahayak-ai
+---
 
+## Features
+
+* AI chatbot interface
+* Fast response generation
+* Simple and interactive UI
+* Secure API integration
+* Cloud deployment on GCP
+* Scalable architecture
+
+---
+
+# System Architecture
+
+```text
+                ┌────────────────────┐
+                │       User         │
+                └─────────┬──────────┘
+                          │
+                          ▼
+                ┌────────────────────┐
+                │ Streamlit Frontend │
+                │   User Interface   │
+                └─────────┬──────────┘
+                          │ HTTP Request
+                          ▼
+                ┌────────────────────┐
+                │  FastAPI Backend   │
+                │ Business Logic/API │
+                └─────────┬──────────┘
+                          │
+                    API Calls
+                          ▼
+                ┌────────────────────┐
+                │    Groq LLM API    │
+                │   AI Inference     │
+                └────────────────────┘
+```
+
+---
+
+# Tech Stack
+
+## Frontend
+
+* Streamlit
+* Python
+
+## Backend
+
+* FastAPI
+* Python
+* Uvicorn
+
+## AI Layer
+
+* Groq API
+* LLM Inference Engine
+
+## Cloud
+
+* Google Cloud Platform (GCP)
+* Compute Engine VM
+
+---
+
+# Repository Structure
+
+```bash
+Gramsahayak_AI/
 │
-
-├── data
-
-│    └── panchayat_knowledge.txt
-
+├── frontend/
+│   ├── app.py
+│   ├── requirements.txt
 │
-
-├── backend
-
+├── backend/
+│   ├── main.py
+│   ├── routes/
+│   ├── services/
+│   ├── requirements.txt
 │
+├── .env
+├── .gitignore
+├── README.md
+```
 
-├── frontend
+---
 
-│
+# Branch Strategy
 
-├── utils
+We used Git branching to ensure smooth collaboration.
 
-│
+## Main Branches
 
-├── tests
+* `main` → Stable production branch
+* `dev` → Integration/testing branch
 
-│
+## Feature Branches
 
-├── requirements.txt
+| Team Member | Branch Name       | Contribution         |
+| ----------- | ----------------- | -------------------- |
+| Member 1    | `streamlit-ui`    | Frontend Development |
+| Member 2    | `fastapi-backend` | Backend APIs         |
+| Member 3    | `llm-integration` | AI Integration       |
+| Member 4    | `gcp-deployment`  | Cloud Deployment     |
 
-│
+---
 
-└── README.md
+# Team Contributions
 
+## Member 1 — Frontend Development
 
+* Designed Streamlit UI
+* Implemented chat interface
+* Created user interaction flow
+* Integrated frontend with backend
 
-# Team Responsibilities
+---
 
+## Member 2 — Backend Development
 
-## 👑 Team Lead
+* Built REST APIs using FastAPI
+* Implemented routing
+* Added validation and error handling
+* Managed request-response lifecycle
 
-Branch:
+---
 
-feature/rag-llm
+## Member 3 — AI Integration
 
+* Integrated Groq API
+* Designed prompt engineering pipeline
+* Processed LLM responses
+* Optimized AI inference
 
-Responsible for:
+---
+## Member 1 and 2 - Cloud Deployment
 
-- RAG pipeline
-- Groq LLM integration
-- Dataset processing
-- Overall integration
-- Testing
-- Documentation
-- Presentation
+* Created GCP VM instance
+* Configured firewall rules
+* Hosted frontend and backend
+* Managed public deployment
 
+# Deployment Details
 
-Files:
+## Cloud Platform
 
-backend/rag_pipeline.py
+Google Cloud Platform (GCP)
 
-backend/retriever.py
+## Services Used
 
-data/
+* Compute Engine VM
+* External Static IP
+* Firewall Configuration
 
+---
 
+# Public URLs
 
-------------------------------------
+## Streamlit Frontend
 
+```text
+http://YOUR_PUBLIC_IP:8501
+```
 
-## 🎨 Frontend Developer
+Example:
 
+```text
+http://34.xxx.xxx.xxx:8501
+```
 
-Branch:
+---
 
-feature/frontend
+## FastAPI Backend
 
+```text
+http://YOUR_PUBLIC_IP:8000
+```
 
-Responsible for:
+---
 
-- Streamlit interface
-- User interaction
-- UI improvements
+## API Documentation
 
+```text
+http://YOUR_PUBLIC_IP:8000/docs
+```
 
-Files:
+---
 
-frontend/
+# Setup Instructions
 
+## Clone Repository
 
+```bash
+git clone <repository-url>
+cd Gramsahayak_AI
+```
 
-------------------------------------
+---
 
-
-## ⚙️ Backend Developer 1
-
-
-Branch:
-
-feature/backend-api
-
-
-Responsible for:
-
-- FastAPI server
-- API endpoints
-- Connecting frontend with AI
-
-
-Files:
-
-backend/api.py
-
-
-
-------------------------------------
-
-
-## ⚙️ Backend Developer 2
-
-
-Branch:
-
-feature/backend-services
-
-
-Responsible for:
-
-- Backend utilities
-- Request models
-- Configuration handling
-
-
-Files:
-
-backend/models.py
-
-utils/
-
-
-# Initial Setup For Every Member
-
-
-After cloning:
-
+# Backend Setup
 
 Create virtual environment:
 
-
-Windows:
-
-
+```bash
 python -m venv venv
+```
 
+Activate environment:
+
+### Windows
+
+```bash
 venv\Scripts\activate
+```
 
+### Linux / Mac
 
+```bash
+source venv/bin/activate
+```
 
-Install packages:
+Install dependencies:
 
-
-
+```bash
+cd backend
 pip install -r requirements.txt
+```
 
+Run FastAPI:
 
+```bash
+uvicorn main:app --reload
+```
 
+Backend runs on:
 
-# Daily Workflow
+```text
+http://localhost:8000
+```
 
+---
 
-Before starting work:
+# Frontend Setup
 
+Install frontend dependencies:
 
-Check branch:
+```bash
+cd frontend
+pip install -r requirements.txt
+```
 
+Run Streamlit app:
 
-git branch
+```bash
+streamlit run app.py
+```
 
+Frontend runs on:
 
+```text
+http://localhost:8501
+```
 
-Pull latest changes:
-
-
-
-git pull origin main
-
-
-
-Work on your assigned files.
-
-
-
-After completing work:
-
-
-Check changes:
-
-
-git status
-
-
-
-Add files:
-
-
-git add .
-
-
-
-Commit:
-
-
-git commit -m "Describe your changes"
-
-
-
-Before pushing:
-
-IMPORTANT:
-
-Pull your branch first:
-
-
-
-git pull origin YOUR_BRANCH_NAME
-
-
-
-Push:
-
-
-
-git push origin YOUR_BRANCH_NAME
-
-
-
-
-# Example Backend Workflow
-
-
-Backend API developer:
-
-
-
-git checkout feature/backend-api
-
-git pull origin main
-
-Work...
-
-git add .
-
-git commit -m "Added FastAPI chat endpoint"
-
-git pull origin feature/backend-api
-
-git push origin feature/backend-api
-
-
-
-
-# Example Frontend Workflow
-
-
-
-git checkout feature/frontend
-
-git pull origin main
-
-Work...
-
-git add .
-
-git commit -m "Created Streamlit chatbot UI"
-
-git pull origin feature/frontend
-
-git push origin feature/frontend
-
-
-
-
-# Merge Process
-
-
-Only team leader merges.
-
-
-Order:
-
-
-1. backend-services
-
-2. backend-api
-
-3. rag-llm
-
-4. frontend
-
-
-
-Merge:
-
-
-
-git checkout main
-
-git pull origin main
-
-git merge feature/backend-api
-
-git push origin main
-
-
-
-
-# Conflict Prevention
-
-
-Avoid:
-
-
-❌ Multiple people editing same file
-
-
-Example:
-
-Two people editing:
-
-backend/api.py
-
-
-Solution:
-
-Only backend-api person edits it.
-
-
-
-# Testing Before Final Demo
-
-
-Run backend:
-
-
-
-uvicorn backend.api:app --reload
-
-
-
-Run frontend:
-
-
-
-streamlit run frontend/app.py
-
-
-
+---
 
 # Environment Variables
 
+Create a `.env` file in the project root:
 
-API keys are stored only in:
+```env
+GROQ_API_KEY=your_api_key_here
+```
 
+Security measures:
 
-.env
+* `.env` included in `.gitignore`
+* API keys never pushed to GitHub
+* Secrets managed securely
 
+---
 
-Example:
+# API Workflow
 
+1. User submits query through Streamlit UI
+2. Frontend sends request to FastAPI backend
+3. Backend validates request
+4. FastAPI sends prompt to Groq API
+5. LLM generates response
+6. Backend returns response
+7. Streamlit displays answer
 
+---
 
-GROQ_API_KEY=your_key
+# Cloud Resource Usage
 
+### Compute
 
+* GCP VM instance used for hosting
 
-Never commit .env file.
+### Storage
 
+* Minimal storage for source code and logs
 
+### Cost Optimization
 
-# Final Architecture
+* Lightweight VM selection
+* Controlled resource usage
+* Efficient deployment strategy
 
+---
 
-User
+# Challenges Faced
 
-↓
+* Frontend-backend communication
+* API security management
+* Deployment configuration
+* Firewall and port exposure
+* LLM integration latency
 
-Streamlit Frontend
+---
 
-↓
+# Future Improvements
 
-FastAPI Backend
+* Multi-language support
+* Voice-based interaction
+* User authentication
+* Database integration
+* Personalized recommendations
+* Mobile support
 
-↓
+---
 
-RAG Pipeline
+# Conclusion
 
-↓
+Gramsahayak AI demonstrates how AI, cloud computing, and modern backend frameworks can be integrated to build scalable public-service solutions.
 
-Vector Database
+This project successfully combines:
 
-↓
+* Interactive frontend using Streamlit
+* Scalable backend using FastAPI
+* AI-powered intelligence using Groq
+* Cloud deployment using GCP
 
-Groq LLM
-
-↓
-
-Response
-
+---
