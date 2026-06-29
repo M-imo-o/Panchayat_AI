@@ -8,7 +8,7 @@
 ✅ Documents required for application: Affidavit, Basic Tax Receipt, Salary Certificate (if employed), Form 16 / IT Return, Ration Card, Identity Proof.
 ✅ Fees and extra late fees: Through Akshaya: ₹25 (General), ₹15 (BPL); Through Portal: ₹15 (General/BPL). No late fees.
 ✅ Timeline for processing: 6 Working Days
-✅ Validity: 1 Year from the date of issue.
+✅ Validity: 1 Year .
 ✅ Website for application and extra information: https://edistrict.kerala.gov.in/
 ✅ Common features: This is often the "base" document. Once obtained, it is required to apply for merit-cum-means scholarships, educational fee waivers, and various BPL/welfare schemes.
 ✅ Procedure: 1. Login to e-District. 2. Fill details and upload documents. 3. Pay fee. 4. Verification by Village Officer. 5. Download signed certificate.
@@ -458,7 +458,7 @@ Q: If data errors? A: Visit center for update.
 ✅ Keywords: sc st certificate, caste certificate, reservation
 ✅ Purpose: Provides legal recognition of Scheduled Caste or Scheduled Tribe status for availing reservation benefits in education and employment.
 ✅ Eligibility: Persons belonging to recognized SC/ST communities in Kerala.
-✅ Documents required for application: Proof of Caste (old records if available), [Redacted] card, Parent's caste certificate (if available), Residential proof.
+✅ Documents required for application: Proof of Caste (old records if available), Parent's caste certificate (if available), Residential proof.
 ✅ Fees and extra late fees: Through Akshaya: ₹25 (General). No late fees.
 ✅ Timeline for processing: 5-7 Working Days.
 ✅ Validity: Permanent.

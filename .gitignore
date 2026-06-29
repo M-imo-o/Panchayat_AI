@@ -1,20 +1,42 @@
-# Virtual environment
+# =========================
+# Virtual Environment
+# =========================
 venv/
 env/
+.venv/
 
-# API keys
+
+# =========================
+# Environment Variables / API Keys
+# =========================
 .env
 
-# Python cache
+
+# =========================
+# Python Cache
+# =========================
 __pycache__/
 *.pyc
+*.pyo
 
-# Vector database
-faiss_index/
+
+# =========================
+# Vector Databases
+# =========================
+chroma_db/
 .chroma/
+faiss_index/
 
-# IDE
+
+# =========================
+# IDE Settings
+# =========================
 .vscode/
+.idea/
 
-# OS
+
+# =========================
+# OS Files
+# =========================
 .DS_Store
+Thumbs.db

@@ -1,21 +1,16 @@
 langchain
 langchain-community
-langchain-core
 langchain-groq
 langchain-huggingface
 
-groq
+chromadb
+langchain-chroma
+
+sentence-transformers
+
+python-dotenv
 
 fastapi
 uvicorn
 
 streamlit
-requests
-
-faiss-cpu
-
-python-dotenv
-
-pydantic
-
-sentence-transformers
