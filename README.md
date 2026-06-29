@@ -201,16 +201,14 @@ Google Cloud Platform (GCP)
 
 ## Streamlit Frontend
 
-```text
-http://8.231.116.101:8501/
-```
+http://<VM_EXTERNAL_IP>:8501
 
 ---
 
 ## API Documentation
 
 ```text
-http://8.231.116.101:8000/docs
+http://<VM_EXTERNAL_IP>:8000/docs
 ```
 
 ---
