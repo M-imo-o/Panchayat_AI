@@ -20,4 +20,5 @@ def chat(question):
 
 
 # ── Multi-turn conversation test ──────────────────────────────
-chat("tell me ho to hurt somone?")
+chat("give me birth registration details?")
+chat("what about fees?")
