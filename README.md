@@ -202,21 +202,7 @@ Google Cloud Platform (GCP)
 ## Streamlit Frontend
 
 ```text
-http://YOUR_PUBLIC_IP:8501
-```
-
-Example:
-
-```text
-http://34.xxx.xxx.xxx:8501
-```
-
----
-
-## FastAPI Backend
-
-```text
-http://YOUR_PUBLIC_IP:8000
+http://8.231.116.101:8501/
 ```
 
 ---
@@ -224,7 +210,7 @@ http://YOUR_PUBLIC_IP:8000
 ## API Documentation
 
 ```text
-http://YOUR_PUBLIC_IP:8000/docs
+http://8.231.116.101:8000/docs
 ```
 
 ---
