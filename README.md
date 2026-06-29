@@ -368,7 +368,8 @@ This project successfully combines:
 * Cloud deployment using GCP
 
 ---
-# Contributors : 
-Frontend - Athira V
-Backend - Asiya Muhammed Sali
-AI Integration - Adhithya K
+## 👥 Contributors
+
+- 🎨 **Frontend:** Athira V
+- ⚙️ **Backend:** Asiya Muhammed Sali
+- 🤖 **AI Integration:** Adhithya K
