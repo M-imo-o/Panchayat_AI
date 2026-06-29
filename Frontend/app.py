@@ -1,3 +1,4 @@
+
 import streamlit as st
 import requests
 
@@ -52,17 +53,10 @@ if "history" not in st.session_state:
 
 # ── 3. Sidebar Layout ──────────────────────────────────────────
 with st.sidebar:
-    st.image("https://img.icons8.com/color/96/government-building.png", width=80)
     st.title("Panchayat Directory")
     st.write("Need to visit or call the office?")
     
     # Expanders for clean info layouts
-    with st.expander("📞 Contact Directory"):
-        st.markdown("""
-        * **Panchayat Secretary:** +91 98765 43210
-        * **Sarpanch Office:** +91 98765 43211
-        * **Helpline Email:** help.panchayat@gov.in
-        """)
         
     with st.expander("⏱️ Office Timings"):
         st.write("Monday to Friday: 10:00 AM - 5:00 PM")
@@ -77,7 +71,7 @@ with st.sidebar:
         st.markdown("<style>p, span, input { font-size: 1.2rem !important; }</style>", unsafe_allow_html=True)
 
 # ── 4. Main UI Header ─────────────────────────────────────────
-st.title("🏛️ GramSahayak AI (ग्रामसहायक)")
+st.title(" GramSahayak AI (ഗ്രാംസഹായക് AI)")
 st.caption("AI-powered assistant for Kerala Gram Panchayat Services & Schemes")
 
 # ── 5. Helper Function to Call Backend ────────────────────────
