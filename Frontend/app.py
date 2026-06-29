@@ -71,7 +71,7 @@ with st.sidebar:
         st.markdown("<style>p, span, input { font-size: 1.2rem !important; }</style>", unsafe_allow_html=True)
 
 # ── 4. Main UI Header ─────────────────────────────────────────
-st.title(" GramSahayak AI (ഗ്രാംസഹായക് AI)")
+st.title(" GramSahayak AI (ഗ്രാംസഹായക്)")
 st.caption("AI-powered assistant for Kerala Gram Panchayat Services & Schemes")
 
 # ── 5. Helper Function to Call Backend ────────────────────────
@@ -98,15 +98,15 @@ if len(st.session_state.history) == 0:
     col1, col2 = st.columns(2)
     
     with col1:
-        if st.button("📄 What documents are needed for Caste Certificate?"):
-            st.session_state.temp_prompt = "What documents are needed for Caste Certificate?"
+        if st.button("📄 What documents are required for an Income Certificate?"):
+            st.session_state.temp_prompt = "What documents are required for applying for an Income Certificate?"
             
-        if st.button("🌾 What is the PM-Kisan scheme?"):
-            st.session_state.temp_prompt = "What is the PM-Kisan scheme?"
+        if st.button("💍 What is the procedure for Marriage Registration?"):
+            st.session_state.temp_prompt = "What is the procedure for Marriage Registration?"
             
     with col2:
-        if st.button("💰 What are the fees for a land record copy?"):
-            st.session_state.temp_prompt = "What are the fees for a land record copy?"
+        if st.button("💰 What are the fees for a Widow Certificate?"):
+            st.session_state.temp_prompt = "What are the fees for a Widow Certificate?"
             
         if st.button("⏱️ How long does it take to get a Birth Certificate?"):
             st.session_state.temp_prompt = "How long does it take to get a Birth Certificate?"
