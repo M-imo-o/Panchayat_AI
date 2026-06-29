@@ -139,12 +139,12 @@ We used Git branching to ensure smooth collaboration.
 
 ## Feature Branches
 
-| Team Member | Branch Name       | Contribution         |
-| ----------- | ----------------- | -------------------- |
-| Member 1    | `streamlit-ui`    | Frontend Development |
-| Member 2    | `fastapi-backend` | Backend APIs         |
-| Member 3    | `llm-integration` | AI Integration       |
-| Member 4    | `gcp-deployment`  | Cloud Deployment     |
+| Team Member   | Branch Name       | Contribution         |
+| -----------   | ----------------- | -------------------- |
+| Member 1      | `streamlit-ui`    | Frontend Development |
+| Member 2      | `fastapi-backend` | Backend APIs         |
+| Member 3      | `llm-integration` | AI Integration       |
+| Member 1&2    | `gcp-deployment`  | Cloud Deployment     |
 
 ---
 
