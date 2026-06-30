@@ -6,13 +6,14 @@ An AI-powered intelligent assistant designed to simplify access to public servic
 
 ## Project Overview
 
-Gramsahayak AI is built to bridge the gap between users and complex administrative information by providing a conversational AI interface. Users can ask queries in natural language and receive simplified, context-aware responses.
+Gramsahayak AI bridges the gap between users and complex administrative information by providing a conversational AI interface. Users can ask queries in natural language and receive simplified, context-aware responses in real time.
 
 The system integrates:
 
 * **Streamlit** for frontend user interaction
 * **FastAPI** for backend API handling
 * **Groq LLM API** for AI-powered response generation
+* **RAG (Retrieval-Augmented Generation)** for domain-specific responses
 * **Google Cloud Platform (GCP)** for deployment and hosting
 
 ---
@@ -43,9 +44,13 @@ Gramsahayak AI addresses these issues using AI-powered conversational assistance
 
 ## Features
 
-* AI chatbot interface
-* Fast response generation
-* Simple and interactive UI
+* AI-powered chatbot interface
+* **Streaming chat responses** for real-time output
+* **Follow-up question handling** using conversation context
+* **Greeting detection and handling** for natural interaction
+* **RAG pipeline** for context-aware domain-specific answers
+* **Vector-store based retrieval** from knowledge base
+* **Guardrails** for safer and more relevant responses
 * Secure API integration
 * Cloud deployment on GCP
 * Scalable architecture
@@ -54,29 +59,49 @@ Gramsahayak AI addresses these issues using AI-powered conversational assistance
 
 # System Architecture
 
-```text
-                ┌────────────────────┐
-                │       User         │
-                └─────────┬──────────┘
-                          │
-                          ▼
-                ┌────────────────────┐
-                │ Streamlit Frontend │
-                │   User Interface   │
-                └─────────┬──────────┘
-                          │ HTTP Request
-                          ▼
-                ┌────────────────────┐
-                │  FastAPI Backend   │
-                │ Business Logic/API │
-                └─────────┬──────────┘
-                          │
-                    API Calls
-                          ▼
-                ┌────────────────────┐
-                │    Groq LLM API    │
-                │   AI Inference     │
-                └────────────────────┘
+```text id="shzqz5"
+                         ┌────────────────────┐
+                         │       User         │
+                         └─────────┬──────────┘
+                                   │
+                                   ▼
+                         ┌────────────────────┐
+                         │ Streamlit Frontend │
+                         │   User Interface   │
+                         └─────────┬──────────┘
+                                   │ HTTP Request
+                                   ▼
+                         ┌────────────────────┐
+                         │  FastAPI Backend   │
+                         │   API Endpoints    │
+                         └─────────┬──────────┘
+                                   │
+                    ┌──────────────┴──────────────┐
+                    ▼                             ▼
+          ┌──────────────────┐          ┌──────────────────┐
+          │ Context Handling │          │   Guardrails     │
+          │ + Chat History   │          │ Safety Filtering │
+          └────────┬─────────┘          └────────┬─────────┘
+                   │                              │
+                   └──────────────┬───────────────┘
+                                  ▼
+                       ┌────────────────────┐
+                       │   RAG Pipeline     │
+                       │ Retrieval + Prompt │
+                       └─────────┬──────────┘
+                                 │
+                   ┌─────────────┴─────────────┐
+                   ▼                           ▼
+          ┌──────────────────┐        ┌──────────────────┐
+          │   Retriever      │        │   Vector Store   │
+          │ Relevant Chunks  │        │ Embeddings Index │
+          └────────┬─────────┘        └────────┬─────────┘
+                   └────────────┬──────────────┘
+                                ▼
+                      ┌────────────────────┐
+                      │    Groq LLM API    │
+                      │   AI Inference     │
+                      └────────────────────┘
 ```
 
 ---
@@ -97,33 +122,42 @@ Gramsahayak AI addresses these issues using AI-powered conversational assistance
 ## AI Layer
 
 * Groq API
-* LLM Inference Engine
+* Retrieval-Augmented Generation (RAG)
+* Vector Embeddings
 
 ## Cloud
 
 * Google Cloud Platform (GCP)
 * Compute Engine VM
+* tmux (process persistence)
 
 ---
 
 # Repository Structure
 
-```bash
+```bash id="n1ubru"
 Gramsahayak_AI/
 │
-├── frontend/
-│   ├── app.py
-│   ├── requirements.txt
+├── Data/
+│   └── data_set.txt
+│
+├── Frontend/
+│   └── app.py
 │
 ├── backend/
-│   ├── main.py
-│   ├── routes/
-│   ├── services/
-│   ├── requirements.txt
+│   ├── api.py
+│   ├── guardrails.py
+│   ├── models.py
+│   ├── rag_pipeline.py
+│   ├── retriever.py
+│   └── vector_store.py
 │
+├── utils/
+│
+├── requirements.txt
 ├── .env
 ├── .gitignore
-├── README.md
+└── README.md
 ```
 
 ---
@@ -132,24 +166,24 @@ Gramsahayak_AI/
 
 We used Git branching to ensure smooth collaboration.
 
-## Main Branches
+## Main Branch
 
 * `main` → Stable production branch
 
 ## Feature Branches
 
-| Team Member   | Branch Name       | Contribution         |
-| -----------   | ----------------- | -------------------- |
-| Member 1      | `streamlit-ui`    | Frontend Development |
-| Member 2      | `fastapi-backend` | Backend APIs         |
-| Member 3      | `llm-integration` | AI Integration       |
-| Member 1&2    | `gcp-deployment`  | Cloud Deployment     |
+| Team Member                                  | Branch Name       | Contribution         |
+| -------------------------------------------- | ----------------- | -------------------- |
+| Athira V                                     | `streamlit-ui`    | Frontend Development |
+| Asiya Muhammed Sali Thachavallath            | `fastapi-backend` | Backend APIs         |
+| Adhithya K                                   | `llm-integration` | AI Integration       |
+| Athira V & Asiya Muhammed Sali Thachavallath | `gcp-deployment`  | Cloud Deployment     |
 
 ---
 
 # Team Contributions
 
-## Member 1 — Frontend Development
+## Athira V — Frontend Development
 
 * Designed Streamlit UI
 * Implemented chat interface
@@ -158,29 +192,37 @@ We used Git branching to ensure smooth collaboration.
 
 ---
 
-## Member 2 — Backend Development
+## Asiya Muhammed Sali Thachavallath — Backend Development
 
 * Built REST APIs using FastAPI
-* Implemented routing
+* Implemented chat endpoints
 * Added validation and error handling
-* Managed request-response lifecycle
+* Implemented **StreamingResponse-based chat endpoint** for real-time token streaming
+* Implemented **conversation history support** for follow-up queries
+* Developed backend integration for RAG pipeline
 
 ---
 
-## Member 3 — AI Integration
+## Adhithya K — AI Integration
 
 * Integrated Groq API
 * Designed prompt engineering pipeline
+* Implemented retriever and vector store logic
 * Processed LLM responses
 * Optimized AI inference
+* Added greeting detection and guardrails
 
 ---
-## Member 1 and 2 - Cloud Deployment
+
+## Athira V & Asiya Muhammed Sali Thachavallath — Cloud Deployment
 
 * Created GCP VM instance
 * Configured firewall rules
-* Hosted frontend and backend
+* Deployed and maintained frontend and backend services on GCP VM
 * Managed public deployment
+* Configured **tmux sessions** for persistent service execution
+
+---
 
 # Deployment Details
 
@@ -191,23 +233,91 @@ Google Cloud Platform (GCP)
 ## Services Used
 
 * Compute Engine VM
-* External Static IP
+* External Public IP
 * Firewall Configuration
+* tmux for persistent background execution
+
+## Why tmux?
+
+We use **tmux** to keep both frontend and backend processes running even after disconnecting from the VM via SSH. This ensures the application remains available even after SSH disconnection.
 
 ---
 
 # Public URLs
 
-## Streamlit Frontend
+## Streamlit Frontend (Main Application)
 
-http://<VM_EXTERNAL_IP>:8501
+```text id="5n2b0v"
+http://8.231.116.101:8501
+```
+
+---
+
+## FastAPI Backend
+
+```text id="k8m4nn"
+http://8.231.116.101:8000
+```
 
 ---
 
 ## API Documentation
 
-```text
-http://<VM_EXTERNAL_IP>:8000/docs
+```text id="mjlwmz"
+http://8.231.116.101:8000/docs
+```
+
+---
+
+# Running on GCP using tmux
+
+To ensure frontend and backend remain active even after closing SSH, we use **tmux**.
+
+## Start Backend Session
+
+```bash id="4x8xg0"
+tmux new -s backend
+cd backend
+uvicorn api:app --host 0.0.0.0 --port 8000
+```
+
+Detach:
+
+```bash id="zc3i9n"
+Ctrl + B, then D
+```
+
+---
+
+## Start Frontend Session
+
+```bash id="1eh5o0"
+tmux new -s frontend
+cd Frontend
+streamlit run app.py --server.address 0.0.0.0 --server.port 8501
+```
+
+Detach:
+
+```bash id="2bwb8p"
+Ctrl + B, then D
+```
+
+---
+
+## Reattach Session
+
+```bash id="q9fzhq"
+tmux attach -t backend
+tmux attach -t frontend
+```
+
+---
+
+## List Sessions
+
+```bash id="8a2pb1"
+tmux ls
 ```
 
 ---
@@ -216,51 +326,33 @@ http://<VM_EXTERNAL_IP>:8000/docs
 
 ## Clone Repository
 
-```bash
+```bash id="eekec7"
 git clone <repository-url>
 cd Gramsahayak_AI
 ```
 
 ---
 
-# Backend Setup
+## Install Dependencies
 
-Create virtual environment:
-
-```bash
-python -m venv venv
-```
-
-Activate environment:
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### Linux / Mac
-
-```bash
-source venv/bin/activate
-```
-
-Install dependencies:
-
-```bash
-cd backend
+```bash id="v1blcl"
 pip install -r requirements.txt
 ```
 
-Run FastAPI:
+---
 
-```bash
-uvicorn main:app --reload
+# Backend Setup
+
+Run backend:
+
+```bash id="s2tzul"
+cd backend
+uvicorn api:app --reload
 ```
 
-Backend runs on:
+Runs on:
 
-```text
+```text id="pd4jgx"
 http://localhost:8000
 ```
 
@@ -268,22 +360,16 @@ http://localhost:8000
 
 # Frontend Setup
 
-Install frontend dependencies:
+Run frontend:
 
-```bash
-cd frontend
-pip install -r requirements.txt
-```
-
-Run Streamlit app:
-
-```bash
+```bash id="1lkjlwm"
+cd Frontend
 streamlit run app.py
 ```
 
-Frontend runs on:
+Runs on:
 
-```text
+```text id="fgupsm"
 http://localhost:8501
 ```
 
@@ -291,9 +377,9 @@ http://localhost:8501
 
 # Environment Variables
 
-Create a `.env` file in the project root:
+Create a `.env` file:
 
-```env
+```env id="t0yqto"
 GROQ_API_KEY=your_api_key_here
 ```
 
@@ -309,39 +395,28 @@ Security measures:
 
 1. User submits query through Streamlit UI
 2. Frontend sends request to FastAPI backend
-3. Backend validates request
-4. FastAPI sends prompt to Groq API
-5. LLM generates response
-6. Backend returns response
-7. Streamlit displays answer
-
----
-
-# Cloud Resource Usage
-
-### Compute
-
-* GCP VM instance used for hosting
-
-### Storage
-
-* Minimal storage for source code and logs
-
-### Cost Optimization
-
-* Lightweight VM selection
-* Controlled resource usage
-* Efficient deployment strategy
+3. Backend checks greeting and follow-up context
+4. Guardrails validate input
+5. Retriever fetches relevant knowledge chunks
+6. RAG pipeline builds contextual prompt
+7. Prompt is sent to Groq API
+8. LLM generates response
+9. Response is streamed back to frontend
+10. Streamlit displays output in real time
 
 ---
 
 # Challenges Faced
 
 * Frontend-backend communication
+* Streaming response implementation
+* Maintaining conversation context
+* RAG pipeline integration
+* Vector retrieval optimization
 * API security management
 * Deployment configuration
 * Firewall and port exposure
-* LLM integration latency
+* LLM response latency
 
 ---
 
@@ -364,12 +439,15 @@ This project successfully combines:
 
 * Interactive frontend using Streamlit
 * Scalable backend using FastAPI
+* Retrieval-Augmented Generation (RAG)
+* Real-time streaming responses
 * AI-powered intelligence using Groq
 * Cloud deployment using GCP
 
 ---
+
 ## 👥 Contributors
 
-- 🎨 **Frontend:** Athira V
-- ⚙️ **Backend:** Asiya Muhammed Sali
-- 🤖 **AI Integration:** Adhithya K
+* 🎨 **Frontend:** Athira V
+* ⚙️ **Backend:** Asiya Muhammed Sali Thachavallath
+* 🤖 **AI Integration:** Adhithya K
