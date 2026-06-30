@@ -327,7 +327,7 @@ tmux ls
 ## Clone Repository
 
 ```bash id="eekec7"
-git clone <repository-url>
+git clone https://github.com/M-imo-o/Panchayat_AI.git
 cd Gramsahayak_AI
 ```
 
