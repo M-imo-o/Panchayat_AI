@@ -1,7 +1,7 @@
 
 import streamlit as st
 import requests
-
+import json
 # ── 1. Page Configuration & Theme ────────────────────────────
 st.set_page_config(
     page_title="GramSahayak AI",
@@ -45,7 +45,7 @@ CUSTOM_CSS = """
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
 # ── 2. Configuration & State ─────────────────────────────────
-BACKEND_URL = "http://127.0.0.1:8000/chat"
+BACKEND_STREAM_URL = "http://127.0.0.1:8000/chat"
 
 # Initialize conversation history in session state
 if "history" not in st.session_state:
@@ -74,20 +74,25 @@ with st.sidebar:
 st.title(" GramSahayak AI (ഗ്രാംസഹായക്)")
 st.caption("AI-powered assistant for Kerala Gram Panchayat Services & Schemes")
 
-# ── 5. Helper Function to Call Backend ────────────────────────
-def ask_assistant(question):
+# ── 5. Streaming helper: yields text chunks from SSE endpoint ─
+def ask_assistant_stream(question):
+    """Generator that yields text chunks from the streaming backend."""
     payload = {
         "question": question,
         "chat_history": st.session_state.history
     }
     try:
-        response = requests.post(BACKEND_URL, json=payload)
-        if response.status_code == 200:
-            return response.json().get("answer", "Error reading response.")
-        else:
-            return f"Error: Received status code {response.status_code} from server."
+        with requests.post(BACKEND_STREAM_URL, json=payload, stream=True, timeout=(30, None)) as response:
+            if response.status_code == 200:
+                for line in response.iter_lines(decode_unicode=True):
+                    if line and line.startswith("data: "):
+                        chunk = json.loads(line[6:])   # strip "data: " then JSON-decode
+                        yield chunk
+            else:
+                yield f"Error: Received status code {response.status_code} from server."
     except requests.exceptions.ConnectionError:
-        return "⚠️ Connection Error: Unable to connect to the backend. Please ensure the backend is running at http://127.0.0.1:8000"
+        yield "Connection Error: Unable to connect to the backend. Please ensure the backend is running at http://127.0.0.1:8000"
+
 
 # ── 6. Welcome Banner & Quick Start Cards ───────────────────
 if len(st.session_state.history) == 0:
@@ -133,12 +138,13 @@ if prompt:
     # Add to history
     st.session_state.history.append({"role": "user", "content": prompt})
     
-    # Get and display bot response with spinner loading animation
+    # Stream and display bot response token by token
     with st.chat_message("assistant"):
-        with st.spinner("Searching Panchayat records..."):
-            bot_answer = ask_assistant(prompt)
-            st.write(bot_answer)
+        with st.spinner("Searching Panchayat records..."):  
+            bot_answer = st.write_stream(ask_assistant_stream(prompt))  
+
             
-    # Add bot answer to history
+    # Save the full collected answer to history
     st.session_state.history.append({"role": "bot", "content": bot_answer})
     st.rerun()
+
